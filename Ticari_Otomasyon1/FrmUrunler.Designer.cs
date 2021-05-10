@@ -94,6 +94,7 @@ namespace Ticari_Otomasyon1
             this.gridLookUpEdit1.Properties.PopupView = this.gridLookUpEdit1View;
             this.gridLookUpEdit1.Size = new System.Drawing.Size(100, 20);
             this.gridLookUpEdit1.TabIndex = 1;
+            this.gridLookUpEdit1.Visible = false;
             // 
             // gridLookUpEdit1View
             // 
