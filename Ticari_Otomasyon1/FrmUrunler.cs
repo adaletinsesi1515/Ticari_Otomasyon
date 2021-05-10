@@ -18,10 +18,15 @@ namespace Ticari_Otomasyon1
             InitializeComponent();
         }
 
+       
+        
+       
         SqlBaglantisi bgl = new SqlBaglantisi();
 
         void listele()
         {
+
+            
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter("select * from TBL_URUNLER", bgl.baglanti());
             da.Fill(dt);

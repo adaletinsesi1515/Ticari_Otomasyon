@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace Ticari_Otomasyon1
 {
-    public class SqlBaglantisi
+    public class SqlBaglantisi 
     {
         public SqlConnection baglanti()
         {
