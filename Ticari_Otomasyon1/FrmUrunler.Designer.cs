@@ -138,6 +138,7 @@ namespace Ticari_Otomasyon1
             this.BtnKaydet.Size = new System.Drawing.Size(231, 39);
             this.BtnKaydet.TabIndex = 10;
             this.BtnKaydet.Text = "Kaydet";
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // RchTxtDetay
             // 
@@ -292,6 +293,7 @@ namespace Ticari_Otomasyon1
             // 
             // TxtId
             // 
+            this.TxtId.Enabled = false;
             this.TxtId.Location = new System.Drawing.Point(103, 32);
             this.TxtId.Name = "TxtId";
             this.TxtId.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
